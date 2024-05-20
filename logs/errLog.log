@@ -1,0 +1,44 @@
+20240414	11:52:30	3fd6c464-b03e-4bb1-9e34-30389ff06fcf	ReferenceError: password is not defined	GET	/users/	undefined
+20240414	11:55:37	80d682fe-ba5c-4266-b8f5-627a99b17c25	Error: Cannot set headers after they are sent to the client	GET	/users/	undefined
+20240414	12:01:24	ce16dcea-f8d7-4dc2-b077-2b13f9d8c2a3	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users/	undefined
+20240414	12:02:17	884afd70-1389-4a1b-81a4-403cd18f6571	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users/	undefined
+20240414	12:10:00	1d234c67-e56f-4c17-b333-22cd09cf3ff5	ReferenceError: array is not defined	POST	/users/	undefined
+20240414	12:41:39	b8055ae9-2a5f-46a0-aab4-8605d824eddb	ReferenceError: array is not defined	POST	/users/	undefined
+20240414	12:42:40	38afaa17-1d38-4d3f-ac1b-85ea39af5861	ReferenceError: array is not defined	POST	/users/	undefined
+20240414	12:42:44	229b97b7-8811-4933-aa90-5c112ae8ed98	ReferenceError: array is not defined	POST	/users/	undefined
+20240414	12:47:44	f77bb64c-7fdd-4d98-841b-2188ab54d6ce	TypeError: Array.isArrays is not a function	POST	/users/	undefined
+20240414	12:57:33	531f9506-fc66-4c05-8683-47bacab72408	CastError: Cast to ObjectId failed for value "{ id: '661b9dc66ebbd553d69a4246' }" (type Object) at path "_id" for model "User"	PATCH	/users/	undefined
+20240414	12:58:24	b30f255a-ccad-4606-b3c7-4aa99b368bea	CastError: Cast to ObjectId failed for value "{ id: '661b9dc66ebbd553d69a4246' }" (type Object) at path "_id" for model "User"	PATCH	/users/	undefined
+20240414	12:59:25	cca1411c-8492-4469-aa1e-22af31d4e838	CastError: Cast to ObjectId failed for value "{ id: '661b9dc66ebbd553d69a4246' }" (type Object) at path "_id" for model "User"	PATCH	/users/	undefined
+20240414	13:50:44	95e9b102-fc65-4003-855f-25250812748d	TypeError: user.save is not a function	PATCH	/users/	undefined
+20240414	13:51:20	f901d274-ebba-4f2e-9958-ce1169420d4d	TypeError: user.save is not a function	PATCH	/users/	undefined
+20240414	13:53:32	9213400a-d39a-4a60-a348-2aa331f65665	TypeError: user.save is not a function	PATCH	/users/	undefined
+20240414	14:01:07	05222eac-d45f-4a5d-b5ca-03a23e45e6da	CastError: Cast to ObjectId failed for value "{ id: '661b9dc66ebbd553d69a4246' }" (type Object) at path "_id" for model "User"	DELETE	/users/	undefined
+20240414	14:07:19	9281f741-1835-4a6e-b8b2-fe0767581912	ReferenceError: active is not defined	POST	/users/	undefined
+20240419	19:41:29	d25c287a-634c-4549-851a-286ee415ad74	Error: data and salt arguments required	PATCH	/users	http://localhost:3000
+20240419	19:41:44	72625e61-992c-4c28-aa6c-dfa731c233a8	Error: data and salt arguments required	PATCH	/users	http://localhost:3000
+20240419	19:44:32	9de4f2af-4816-4c55-90c0-ae6084fcac77	Error: data and salt arguments required	PATCH	/users	http://localhost:3000
+20240419	19:44:39	215a2ede-1fed-4970-bd88-b1db002dce11	Error: data and salt arguments required	PATCH	/users	http://localhost:3000
+20240419	19:46:06	8c976b29-5eb8-46f1-b537-8ce5601dc6a5	Error: data and salt arguments required	PATCH	/users	http://localhost:3000
+20240419	19:54:33	e0fd3c4e-f0d6-44c3-b57e-cc06e489f89b	Error: data and salt arguments required	PATCH	/users	http://localhost:3000
+20240419	19:59:09	6e3cd67f-de19-482c-87f3-414446a0d4f7	Error: data and salt arguments required	PATCH	/users	http://localhost:3000
+20240419	19:59:29	fa779b5a-ca79-4a0d-a84c-edef5ef767c7	Error: Cannot set headers after they are sent to the client	DELETE	/users	http://localhost:3000
+20240419	19:59:34	6175016e-2753-4935-bafa-b27827eebe24	Error: data and salt arguments required	PATCH	/users	http://localhost:3000
+20240419	20:04:43	a0782df9-33f8-4d1f-ab0a-dda5f5664c40	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240419	20:05:19	6a4f75fa-884f-4bdd-859a-c8b585b8e879	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240419	20:14:29	28e579a7-7627-444b-babb-242771841756	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240419	20:15:32	e9c8dc68-f253-431b-a8b1-892c51962cdf	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240419	21:18:14	443ecdfa-dfa1-4b81-ac3e-ff691a463821	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240419	21:20:21	588809d6-352a-46c7-916d-e45c316274bb	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240419	21:21:01	8ed8d00f-6f36-4628-8a21-caa1120478f9	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240419	21:21:27	1014fd5b-202f-4053-9f64-b320b00e520b	ReferenceError: hashedPassword is not defined	PATCH	/users	http://localhost:3000
+20240419	21:24:42	d048ae74-9904-471d-8680-687e931bd70c	ReferenceError: hashedPassword is not defined	PATCH	/users	http://localhost:3000
+20240419	21:25:25	e5a95a92-e552-4907-a06d-64c9f45ef3f6	ReferenceError: hashedPassword is not defined	PATCH	/users	http://localhost:3000
+20240419	21:25:49	830c3f08-d383-4439-ad27-710dca0e7e51	ReferenceError: hashedPassword is not defined	PATCH	/users	http://localhost:3000
+20240427	15:39:15	d21d21b1-d43f-4988-abd9-703ae7445440	Too Many Requests: undefined	$(req.method)	POST	/	)
+        {req.headers.origin}
+20240427	15:39:19	b5f13b19-1f65-4a90-baf5-206ffd7d17f7	Too Many Requests: undefined	$(req.method)	POST	/	)
+        {req.headers.origin}
+20240427	15:39:30	bff14f42-95d9-419d-995e-585b477b02b8	Too Many Requests: undefined	$(req.method)	POST	/	)
+        {req.headers.origin}
+20240519	16:12:23	fb955c3a-a40c-413e-98fd-2fb323e06d7d	Error: Not allowed by CORS	OPTIONS	/auth	http://localhost:3001
