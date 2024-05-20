@@ -42,3 +42,5 @@
 20240427	15:39:30	bff14f42-95d9-419d-995e-585b477b02b8	Too Many Requests: undefined	$(req.method)	POST	/	)
         {req.headers.origin}
 20240519	16:12:23	fb955c3a-a40c-413e-98fd-2fb323e06d7d	Error: Not allowed by CORS	OPTIONS	/auth	http://localhost:3001
+20240520	20:40:05	e85c7419-afd5-4a57-909f-91bf93705efb	Error: Not allowed by CORS	OPTIONS	/api/auth	http://localhost:3000
+20240520	20:40:08	ad86c5e7-7d7b-4d1c-b0c3-5def279647c3	Error: Not allowed by CORS	OPTIONS	/api/auth	http://localhost:3000

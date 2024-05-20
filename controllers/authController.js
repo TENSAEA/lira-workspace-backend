@@ -43,9 +43,9 @@ const login = asyncHandler(async (req, res) => {
   // Create secure cookie with refresh token
   res.cookie("jwt", refreshToken, {
     httpOnly: true, //accessible only by web server
-    secure: false, //https
-    sameSite: "Lax", //cross-site cookie
-    maxAge: 7 * 24 * 60 * 60 * 1000, //cookie expiry: set to match rT
+    secure: true, //https
+    sameSite: "None", //cross-site cookie
+    maxAge: 7 * 24 * 60 * 60 * 1000, //cookie expiry: set to match refreshToken
   });
 
   // Send accessToken containing username and roles
@@ -102,7 +102,7 @@ const refresh = (req, res) => {
 const logout = (req, res) => {
   const cookies = req.cookies;
   if (!cookies?.jwt) return res.sendStatus(204); //No content
-  res.clearCookie("jwt", { httpOnly: true, sameSite: "Lax", secure: false });
+  res.clearCookie("jwt", { httpOnly: true, sameSite: "None", secure: true });
   res.json({ message: "Cookie cleared" });
 };
 
